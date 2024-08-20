@@ -1,0 +1,138 @@
+.home-main-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(180deg, #f7f7ff, #d5d6f5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-contents-wrapper {
+  margin-top: -20px;
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square-wrapper {
+  width: 580px;
+  height: 270px;
+  background-color: #f7f7ff;
+  border: 0.5rem solid #414360;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  grid-area: d;
+  justify-content: center;
+  align-items: center;
+  margin-right: -1rem;
+  padding: 4rem 2rem;
+  position: relative;
+  text-align: center;
+  color: #414360;
+}
+.side-images {
+  /* border: 1px solid black; */
+  height: 85%;
+}
+.left-image {
+  margin-right: 50px;
+}
+.right-image {
+  margin-left: 50px;
+}
+.mainBackground-image {
+  height: 110%;
+  opacity: 0.2;
+  z-index: 0;
+}
+.heading-text {
+  position: absolute;
+  top: 85px;
+  font-size: 65px;
+  font-weight: 800;
+  /* line-height: 200px; */
+}
+.second-text {
+  position: absolute;
+  margin-top: 60px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.button-wrapper {
+  position: absolute;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 150px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.main-button {
+  top: 0;
+  width: 150px;
+  height: 62px;
+  border: 4px solid #414360;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.first-button {
+  margin-right: 15px;
+  background-color: #f7f7ff;
+}
+.second-button {
+  background-color: #414360;
+  color: #f7f7ff;
+}
+.main-button:hover {
+  background-color: #a38ce0;
+  border: 4px solid #a38ce0;
+  color: #f7f7ff;
+  transition: all 0.1s ease;
+}
+.shadow-box {
+  background: #414360;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  bottom: -1rem;
+  height: 1rem;
+  opacity: 0.5;
+  position: absolute;
+  width: 95%;
+}
+.small-message-wrapper {
+  position: absolute;
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.small-message-container {
+  margin-top: 25px;
+  border-radius: 6px;
+  width: 550px;
+  height: 60px;
+  background-color: #f7f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #414360;
+}
+.small-message-container > span {
+  opacity: 0.7;
+}
